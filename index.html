@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to right, #2196F3, #90CAF9); /* Blue gradient */
+    color: #fff; /* White text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: right;
+}
+
+.notify-button {
+    background-color: #fff;
+    color: #2196F3; /* Blue text for button */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px); /* Adjust height to fit the viewport */
+    text-align: center;
+}
+
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.intro-text {
+    max-width: 600px; /* Limit text width for better readability */
+}
+
+.intro-photo img {
+    border-radius: 50%; /* Circular profile photo */
+    width: 150px; /* Set a fixed width for the photo */
+    height: 150px; /* Set a fixed height for the photo */
+    margin-left: 20px; /* Space between text and photo */
+}
+
+.contact {
+    margin-top: 40px;
+}
+
+.contact h2 {
+    margin-bottom: 10px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px; /* Fixed width for input */
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #2196F3; /* Blue text for button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <button class="notify-button">Notify Me</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="intro-text">
+                <h1>Your Name</h1>
+                <p>Your brief but engaging description. Highlight your skills, experience, and what makes you unique.</p>
+            </div>
+            <div class="intro-photo">
+                <img src="your-profile-photo.jpg" alt="Your Name"> 
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2>Get in Touch</h2>
+            <p>Enter your email to reach out.</p>
+            <form>
+                <input type="email" placeholder="Your Email" required>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
